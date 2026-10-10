@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['AngelFish', 'ButterflyFish', 'ClownFish', 'TangFish', 'Three_striped DasmselFish']
+
+roboflow:
+  workspace: duyhoang
+  project: fish5type
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/duyhoang/fish5type/dataset/4
